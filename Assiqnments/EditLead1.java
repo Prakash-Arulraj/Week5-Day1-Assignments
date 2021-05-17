@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class EditLead1 extends BaseTest {
 
 	
-	@Test(enabled= false)
+	@Test(dependsOnMethods = "week5.day1.Assiqnments.CreateLeads.createlead1")
 	public void editlead() {
 		
 		driver.findElement(By.linkText("Find Leads")).click();
