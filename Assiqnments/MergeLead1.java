@@ -14,7 +14,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class MergeLead1 extends BaseTest{
 
-	@Test(enabled = false)
+	@Test
 	public void mergelead() throws InterruptedException {
 		
 
