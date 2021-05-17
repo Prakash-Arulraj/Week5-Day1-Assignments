@@ -14,7 +14,7 @@ public class BaseTest {
 	ChromeDriver driver;
 
 	@BeforeMethod
-	public void beforeMethod() {
+	public void login() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.get("http://leaftaps.com/opentaps");
@@ -34,7 +34,7 @@ public class BaseTest {
 	}
 
 	@AfterMethod
-	public void afterMethod() {
+	public void close() {
 		driver.close();
 		
 	}
