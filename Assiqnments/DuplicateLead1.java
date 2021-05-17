@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class DuplicateLead1 extends BaseTest {
 
-	@Test(enabled= false)
+	@Test
 	public void duplicatelead() throws InterruptedException {
 		
 		
