@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class DeleteLead1 extends BaseTest{
 
-	@Test
+	@Test(enabled = false)
 	public void deletelead() throws InterruptedException {
 		
 		driver.findElement(By.linkText("Find Leads")).click();
