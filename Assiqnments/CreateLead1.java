@@ -22,7 +22,7 @@ public class CreateLead1 extends BaseTest{
 	 * testcase alone. Observe how your testcases run.*/
 	
 
-	@Test(enabled = false)
+	@Test
 	public void createlead() {
 		
 		
